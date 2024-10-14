@@ -40,20 +40,24 @@ The app includes the following routes:
 / : Registration Page
 
 Project Structure:
-authentication-testing-repo/
-├── backend/                          # Backend (Node.js) related files
-│   ├── server.js                     # Main server file using ``auto-auth-server``
+
+## Project Structure
+
+```bash
+npm-module-testing/
+├── server/                          # Backend (Node.js) related files
+│   ├── server.js                     # Main server file using `auto-auth-server`
 │   ├── package.json                  # Backend package.json for dependencies
 │   └── node_modules/                 # Node modules for the backend
-├── frontend/                         # Frontend (React.js) related files
+├── testapp/                         # Frontend (React.js) related files
 │   ├── public/                       # Public directory (React.js)
 │   │   ├── index.html                # Main HTML file for React
 │   │   └── logo.svg                  # React logo
 │   ├── src/                          # Source code for React app
 │   │   ├── App.js                    # Main app component
 │   │   ├── Home.js                   # Home component
-│   │   ├── Login.js                  # Login component ``(uses `react-easy-login`)``
-│   │   ├── Register.js               # Register component ``(can use `react-easy-register`)``
+│   │   ├── Login.js                  # Login component (uses `react-easy-login`)
+│   │   ├── Register.js               # Register component (can use `react-easy-register`)
 │   │   ├── App.css                   # Styling for the app
 │   │   └── index.js                  # Main entry point for React app
 │   ├── package.json                  # Frontend package.json for dependencies
@@ -61,4 +65,4 @@ authentication-testing-repo/
 ├── README.md                         # Project README file
 └── .gitignore                        # Git ignore file for node_modules and other files
 
-
+```
