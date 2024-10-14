@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Demonstration of auto-auth-server npm module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Rohith Chowki",
+  "license": "MIT",
+  "dependencies": {
+    "auto-auth-server": "^1.0.5"
+  }
+}
